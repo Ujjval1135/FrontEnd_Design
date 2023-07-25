@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+
+<body bgcolor="#F5F5F5">
+  <table width="100%" bgcolor="#D8F3DC">
+
+    <tr>
+      <th align="left"><a href="#"><img src="Assets/Contact page/image001.png" alt="My Logo"></a>
+      </th>
+      <th>
+        <p align="right">
+          <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;
+          <a href="product.html">Products</a>&nbsp;&nbsp;&nbsp;
+          <a href="About.html" target="_blank">About</a>&nbsp;&nbsp;&nbsp;
+          <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+      </th>
+    </tr>
+  </table>
+  <form>
+    <!--Personal Information-->
+    <fieldset>
+      <legend>
+        <h2>Personal Infomation</h2>
+      </legend>
+      <!--First Name-->
+      <label for="fname"><strong>First name:</strong></label>
+      <input type="text" id="fname" name="fname" placeholder="Your Name" maxlength="15"  required><br><br>
+      <!--Last Name-->
+      <label for="lname"><strong>Last name:</strong></label>
+      <input type="text" id="lname" name="lname" placeholder="Your Surname" maxlength="15" ><br><br>
+      <!--Email-->
+      <label for="email"><strong>Email:</strong></label>
+      <input type="email" id="email" name="email" placeholder="example11@gmail.com" required><br><br>
+      <!--Phone Number-->
+      <label for="Phone Number"><strong>Phone Number:</strong></label>
+      <input type="tel" maxlength="10" id="Phone Number" name="Phone Number" placeholder="1234567890" required><br><br>
+      <!--Birth date-->
+      <label for="birthday"><strong>Birthday:</strong></label>
+      <input type="date" id="birthday" name="birthday" required><br><br>
+      <!--Gender-->
+      <label for="Gender"><strong>Gender:</strong></label>
+      <input type="radio" name="gender" value="male">
+      <label for="age1">Male</label>
+      <input type="radio" name="gender" value="female">
+      <label for="age2">female</label>
+      <input type="radio" name="gender" value="Others">
+      <label for="age3">Others</label><br><br>
+      <!--Address:-->
+      <label for="Address"><strong>Address:</strong></label>
+      <textarea id="address" name="address" rows="1" cols="35" placeholder="Your Address" required></textarea><br><br>
+      <!--City-->
+      <label for="city"> <strong>City:</strong></label>
+      <select id="city" name="city" required>
+        <option value="Select One" selected disabled>--Select One--</option>
+        <option value="Vadodara">Vadodara</option>
+        <option value="Mussoorie">Mussoorie</option>
+        <option value="Surat">Surat</option>
+        <option value="Ahemdabad">Ahemdabad</option>
+        <option value="Porbandar">Porbandar</option>
+        <option value="Gondal">Gondal</option>
+        <option value="Anand">Anand</option>
+        <option value="Kutch">Kutch</option>
+        <option value="Bhavnagar">Bhavnagar</option>
+        <option value="Rajkot">Rajkot</option>
+        <option value="Mumbai">Mumbai</option>
+      </select><br><br>
+      <!--Zip Code:-->
+      <label for="Zip Code"><strong>Zip Code:</strong></label>
+      <input type="number" id="Zip" name="Zip" placeholder="390017" maxlength="6" required><br><br>
+      <!--Message:-->
+      <label for="Message"><strong>Message:</strong></label>
+      <textarea id="Message" name="Messages" rows="1" cols="23" placeholder="Any Message?"></textarea><br><br>
+
+    </fieldset>
+    <!--Personal Infomation-->
+    <fieldset>
+      <legend>
+        <h2>Personal Infomation</h2>
+      </legend>
+      <!--Highest Education-->
+      <label for="Education"><strong>Highest Education:</strong></label>
+      <input type="text" id="Education" name="Education" required><br><br>
+      <!--Field of Education-->
+      <label for="Field"> <strong>Field of Education:</strong></label>
+      <select id="Field" name="Field" required>
+        <option value="science">Science</option>
+        <option value="commerce">Commerce</option>
+        <option value="art">Art</option>
+      </select><br><br>
+      <!--University-->
+      <label for="Uname"><strong>University:</strong></label>
+      <input type="text" id="Uname" name="Uname" required><br><br>
+      <!--Work Experience-->
+      <label for="Work"> <strong>Work Experience:</strong></label>
+      <select id="work" name="work" placeholder="work Experiens in years" required>
+        <option value="Select One" selected disabled>--Select One--</option>
+        <option value="0-1">0-1</option>
+        <option value="1-3">1-3</option>
+        <option value="3-7">3-7</option>
+        <option value="7-11">7-11</option>
+        <option value="11+">11+</option>
+      </select><br><br>
+      <!--Work Location-->
+      <label for="Location"><strong>Work Location:</strong></label>
+      <input type="checkbox" name="Location" value="India">
+      <label for="Location1">India</label>
+      <input type="checkbox" name="Location" value="HK">
+      <label for="Location2">HK</label>
+      <input type="checkbox" name="Location" value="USA">
+      <label for="Location3">USA</label>
+      <input type="checkbox" name="Location" value="Dubai">
+      <label for="Location4">Dubai</label><br><br>
+      <!--Upload Resume-->
+      <label for="required"><strong>Upload Resume:</strong></label>
+      <input type="file"><br><br>
+
+    </fieldset><br><br>
+
+    <!--Submit Button-->
+    <input type="submit" value="Submit">
+
+    <!--Reset Button-->
+    <input type="reset" value="reset">
+    
+  </form>
+  &nbsp;
+  &nbsp;
+  <table width="100%" bgcolor="#D8F3DC">
+    <tfoot>
+      <tr>
+        <th align="center">
+          <h2>&copy;2023 Ujjval Mistry.All rights reserved.</h2>
+        </th>
+
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
